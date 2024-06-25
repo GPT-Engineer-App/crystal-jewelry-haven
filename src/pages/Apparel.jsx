@@ -2,7 +2,7 @@ import { Container, Text, VStack, Box, Heading, Image, SimpleGrid } from "@chakr
 
 const Apparel = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="100%" p={4}>
       <VStack spacing={10} align="stretch">
         <Box textAlign="center" py={10}>
           <Heading as="h1" size="2xl">Apparel</Heading>

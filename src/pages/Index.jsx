@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="100%" p={4}>
       <Flex as="nav" bg="gray.800" color="white" p={4} justify="space-between" align="center">
         <Heading as="h1" size="lg">Crying Nature</Heading>
         <Flex>
@@ -26,7 +26,7 @@ const Index = () => {
 
       <Box as="footer" bg="gray.800" color="white" p={4} mt={10}>
         <Flex justify="space-between" align="center">
-          <Text>&copy; 2023 Crying Nature. All rights reserved.</Text>
+          <Text>&amp;copy; 2023 Crying Nature. All rights reserved.</Text>
           <Flex>
             <Link href="https://facebook.com" isExternal>
               <IconButton icon={<FaFacebook />} aria-label="Facebook" variant="ghost" color="white" />
