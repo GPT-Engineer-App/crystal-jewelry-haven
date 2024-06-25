@@ -31,6 +31,23 @@ const Bracelets = () => {
             </Box>
           </SimpleGrid>
         </Box>
+        <Box mt={10} pl={4}>
+          <Heading as="h3" size="lg" mb={4}>Featured Bracelets</Heading>
+          <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+            <Box>
+              <Image src="/images/featured_bracelet1.jpg" alt="Featured Bracelet 1" />
+              <Text mt={2}>Featured Bracelet Design 1</Text>
+            </Box>
+            <Box>
+              <Image src="/images/featured_bracelet2.jpg" alt="Featured Bracelet 2" />
+              <Text mt={2}>Featured Bracelet Design 2</Text>
+            </Box>
+            <Box>
+              <Image src="/images/featured_bracelet3.jpg" alt="Featured Bracelet 3" />
+              <Text mt={2}>Featured Bracelet Design 3</Text>
+            </Box>
+          </SimpleGrid>
+        </Box>
       </VStack>
     </Container>
   );
