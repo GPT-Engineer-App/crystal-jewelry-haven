@@ -21,6 +21,20 @@ const Index = () => {
               <Text mt={2}>Handmade Crystal Bracelets</Text>
             </Box>
           </SimpleGrid>
+
+          <Box mt={10} pl={4}>
+            <Heading as="h3" size="lg" mb={4}>Custom Bracelets</Heading>
+            <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+              <Box>
+                <Image src="/images/custom_bracelet1.jpg" alt="Custom Bracelet 1" />
+                <Text mt={2}>Custom Bracelet Design 1</Text>
+              </Box>
+              <Box>
+                <Image src="/images/custom_bracelet2.jpg" alt="Custom Bracelet 2" />
+                <Text mt={2}>Custom Bracelet Design 2</Text>
+              </Box>
+            </SimpleGrid>
+          </Box>
         </Box>
 
         <Box>
