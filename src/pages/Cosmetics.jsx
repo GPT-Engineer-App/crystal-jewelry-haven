@@ -2,7 +2,7 @@ import { Container, Text, VStack, Box, Heading } from "@chakra-ui/react";
 
 const Cosmetics = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="100%" p={4}>
       <VStack spacing={10} align="stretch">
         <Box textAlign="center" py={10}>
           <Heading as="h1" size="2xl">Upcoming All-Natural Cosmetic Line</Heading>
