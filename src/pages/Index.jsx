@@ -1,4 +1,4 @@
-import { Container, Text, VStack, Box, Heading, Image, Flex, SimpleGrid, Button } from "@chakra-ui/react";
+import { Container, Text, VStack, Box, Heading, Image, SimpleGrid } from "@chakra-ui/react";
 
 const Index = () => {
   return (
@@ -6,7 +6,7 @@ const Index = () => {
       <VStack spacing={10} align="stretch">
         <Box textAlign="center" py={10}>
           <Heading as="h1" size="2xl">Crying Nature</Heading>
-          <Text fontSize="xl">Handmade Crystal Jewelry, Cleansing Tools, Soy Wax Candles, Apparel, and More</Text>
+          <Text fontSize="xl">Crystal Bracelets, Jewelry, Cleansing Tools, Candles, Apparel, and Cosmetics</Text>
         </Box>
 
         <Box>
@@ -38,6 +38,20 @@ const Index = () => {
         </Box>
 
         <Box>
+          <Heading as="h2" size="xl" mb={4}>Jewelry</Heading>
+          <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+            <Box>
+              <Image src="/images/jewelry1.jpg" alt="Jewelry 1" />
+              <Text mt={2}>Beautiful Jewelry 1</Text>
+            </Box>
+            <Box>
+              <Image src="/images/jewelry2.jpg" alt="Jewelry 2" />
+              <Text mt={2}>Beautiful Jewelry 2</Text>
+            </Box>
+          </SimpleGrid>
+        </Box>
+
+        <Box>
           <Heading as="h2" size="xl" mb={4}>Other Crystal Jewelry</Heading>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
             <Box>
@@ -62,7 +76,7 @@ const Index = () => {
         </Box>
 
         <Box>
-          <Heading as="h2" size="xl" mb={4}>Soy Wax Candles</Heading>
+          <Heading as="h2" size="xl" mb={4}>Candles</Heading>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
             <Box>
               <Image src="/images/soy_candle.jpg" alt="Soy Candle" />
